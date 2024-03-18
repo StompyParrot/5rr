@@ -1,4 +1,4 @@
-const { handleStatusCommand } = require("../utils/functions.js");
+const { handleStatusCommand } = require("../utils/helper.js");
 
 module.exports = (message) => {
   handleStatusCommand(message);
